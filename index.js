@@ -16,6 +16,9 @@ class Logger {
     this._times = new Map();
   }
 
+  start() {
+  }
+
   _initWinstonOptions() {
     winston.emitErrs = true;
   }
