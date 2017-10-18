@@ -17,6 +17,7 @@ class Logger {
   }
 
   start() {
+    return this;
   }
 
   _initWinstonOptions() {
